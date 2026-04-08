@@ -1,0 +1,8 @@
+.animal-age::before {
+    content: "Age: ";
+}
+
+.animal-skill::before{
+    content: "skills: ";
+    display:block
+}
