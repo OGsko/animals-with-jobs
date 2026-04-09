@@ -15,7 +15,7 @@ export default function renderAnimalInfo(animal: Animal) {
   const imgAndName = document.createElement("div")
   imgAndName.classList.add("img-and-name")
   const img = document.createElement("img")
-  img.src = `../images/${animal.imageUrl}`
+  img.src = `./images/${animal.imageUrl}`
   img.alt = `Image of ${animal.name} the ${animal.kindOfAnimal}`
 
   const name = document.createElement("h3")
