@@ -1,6 +1,6 @@
 //Titta i index.html och hitta den div där info om varje djur ska skrivas ut.
 //Typa upp funktionens parameter
-import { Animal } from "./IAnimal.ts";
+import { Animal } from "../modules/IAnimal.ts";
 
 
 export default function renderAnimalInfo(animal: Animal) {

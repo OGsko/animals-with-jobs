@@ -3,8 +3,8 @@
 //Varje list-item ska ha en event-lyssnare som kallar på "renderAnimalInfo"
 //Typa upp funktionens parameter
 
-import { Animal } from "./IAnimal.ts";
-import renderAnimalInfo from "./renderAnimalInfo.ts"
+import { Animal } from "../modules/IAnimal.ts";
+import renderAnimalInfo from "../modules/renderAnimalInfo.ts"
 
 export default function renderListOfAnimals(animal: Animal[]) {
     const animalNameList = document.querySelector(".list-of-animals ul") as HTMLElement
