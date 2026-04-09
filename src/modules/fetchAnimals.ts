@@ -2,7 +2,7 @@
 //Använd try/catch och om anropet lyckas, returnera datan. Annars, returnera "null"
 //Typa upp funktionen med vad den returnerar
 
-import { Animal } from "./IAnimal.ts";
+import { Animal } from "../modules/IAnimal.ts";
 
 export default async function fetchAnimals(): Promise<Animal[] | null> {
     try {
